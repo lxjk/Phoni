@@ -1,0 +1,39 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\AndroidDemo\UIRelocator.cs">
+    <Files>
+      <File FileName="Assets\PhoniSystem\PhoniCore\PhoniUtil.cs" Line="54" Column="7" />
+      <File FileName="Assets\Scripts\AndroidDemo\LocoSystem\Core\LocoInput.cs" Line="49" Column="14" />
+      <File FileName="Assets\PhoniSystem\PhoniData\PhoniDataPort.cs" Line="251" Column="32" />
+      <File FileName="Assets\PhoniSystem\PhoniCore\PhoniTCPClient.cs" Line="151" Column="15" />
+      <File FileName="Assets\PhoniSystem\PhoniCore\PhoniTCPListener.cs" Line="162" Column="22" />
+      <File FileName="Assets\Scripts\AndroidDemo\PhoniPlayerSample.cs" Line="39" Column="5" />
+      <File FileName="Assets\PhoniSystem\PhoniData\PhoniStructureBase.cs" Line="29" Column="8" />
+      <File FileName="Assets\PhoniSystem\PhoniCore\PhoniDataWrapper.cs" Line="154" Column="45" />
+      <File FileName="Assets\Scripts\Test\PhoniGameExample.cs" Line="67" Column="29" />
+      <File FileName="Assets\PhoniSystem\PhoniData\PhoniStructurePackage.cs" Line="542" Column="23" />
+      <File FileName="Assets\PhoniSystem\PhoniCore\PhoniClient.cs" Line="44" Column="1" />
+      <File FileName="Assets\PhoniSystem\PhoniCore\PhoniOutput.cs" Line="11" Column="30" />
+      <File FileName="Assets\PhoniSystem\PhoniCore\PhoniUDPClient.cs" Line="312" Column="20" />
+      <File FileName="Assets\PhoniSystem\PhoniCore\PhoniAttribute.cs" Line="13" Column="1" />
+      <File FileName="Assets\PhoniSystem\PhoniControl\PhoniGameController.cs" Line="54" Column="27" />
+      <File FileName="Assets\PhoniSystem\PhoniControl\PhoniPlayerController.cs" Line="39" Column="52" />
+      <File FileName="Assets\PhoniSystem\PhoniControl\PhoniInput.cs" Line="51" Column="2" />
+      <File FileName="Assets\PhoniSystem\PhoniCore\PhoniDataBook.cs" Line="149" Column="1" />
+      <File FileName="Assets\Scripts\PCDemo\PhoniGameSample.cs" Line="174" Column="21" />
+      <File FileName="Assets\Scripts\Test\PhoniPlayerExample.cs" Line="99" Column="29" />
+      <File FileName="Assets\Scripts\PCDemo\TouchViewer.cs" Line="20" Column="78" />
+      <File FileName="Assets\Scripts\AndroidDemo\LocoSystem\Core\LocoInputAnalyzer.cs" Line="38" Column="35" />
+      <File FileName="Assets\Scripts\AndroidDemo\LocoSystem\Core_Unity\TouchDispatcher.cs" Line="32" Column="24" />
+      <File FileName="Assets\Scripts\AndroidDemo\LocoSystem\Core_Unity\TouchSimulator.cs" Line="14" Column="17" />
+      <File FileName="Assets\Scripts\AndroidDemo\LocoSystem\Core\LocoUtil.cs" Line="2" Column="14" />
+      <File FileName="Assets\Scripts\AndroidDemo\VirtualJoystickController.cs" Line="30" Column="25" />
+      <File FileName="Assets\Scripts\AndroidDemo\VirtualButtonController.cs" Line="9" Column="8" />
+      <File FileName="Assets\Scripts\AndroidDemo\UIRelocator.cs" Line="16" Column="72" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
