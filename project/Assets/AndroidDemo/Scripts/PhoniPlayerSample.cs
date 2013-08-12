@@ -79,16 +79,19 @@ public class PhoniPlayerSample : MonoBehaviour {
 	
 	void OnGUI() {
 		if(PhoniInput.Game.Count == 0) {
-			GUI.BeginGroup(new Rect(Screen.width/2 - 100, Screen.height/2 - 120, 300, 200));
-			GUI.Label(new Rect(0,0,100,25), "server address");
-			ipAddress = GUI.TextField(new Rect(0,25,200,20),ipAddress);
-			GUI.Label(new Rect(0,50,100,25), "server port");
-			port = int.Parse(GUI.TextField(new Rect(0,75,200,20),port.ToString()));
-			if(GUI.Button(new Rect(0,120,100,40), "Connect")) {
+			
+			GUILayout.BeginArea(new Rect(Screen.width/3, Screen.height/4, Screen.width/3, Screen.height/2));
+			GUILayout.Label("server address", GUILayout.Width(Screen.width/3), GUILayout.Height(Screen.height/32));
+			ipAddress = GUILayout.TextField(ipAddress, GUILayout.Width(Screen.width/3), GUILayout.Height(Screen.height/16));
+			GUILayout.Space(30);
+			GUILayout.Label("server port", GUILayout.Width(Screen.width/3), GUILayout.Height(Screen.height/32));
+			port = int.Parse(GUILayout.TextField(port.ToString(), GUILayout.Width(Screen.width/3), GUILayout.Height(Screen.height/16)));
+			GUILayout.Space(30);
+			if(GUILayout.Button("Connect", GUILayout.Width(Screen.width/4), GUILayout.Height(Screen.height/10))) {
 				PhoniPlayerController.PlayerClientConnect(ipAddress, port);
 				PlayerPrefs.SetString(_networkInfoPrefKey, (new NetworkInfo(ipAddress, port)).ToString());
 			}
-			GUI.EndGroup();
+			GUILayout.EndArea();
 			if(isAlterUIOn) {
 				isAlterUIOn = false;
 				alterUI.SetActiveRecursively(false);

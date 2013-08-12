@@ -28,7 +28,11 @@ public class AvatarController : MonoBehaviour {
 					port.AnalogData.ReceivedData.left.y, 0);
 				transform.position += moveVec * moveSpeed * Time.deltaTime;
 				
-				transform.Rotate(port.MotionData.ReceivedData.gyro.rotationRate);
+				//transform.Rotate(port.MotionData.ReceivedData.gyro.rotationRate);
+				Quaternion rot = port.MotionData.ReceivedData.gyro.attitude;
+				rot.z = -rot.z;
+				rot.w = -rot.w;
+				transform.rotation = rot;
 				
 				if(port.ButtonData.ReceivedData.GetButton(PhoniButton.Cross)) {
 					transform.position = Vector3.zero;
